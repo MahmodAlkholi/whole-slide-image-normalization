@@ -189,3 +189,5 @@ Werkzeug==3.0.4
 wsidicom==0.17.0
 xyzservices==2024.9.0
 zarr==2.16.1
+libopenslide0
+openslide-tools
