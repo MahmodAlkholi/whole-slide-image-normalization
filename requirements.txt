@@ -193,3 +193,5 @@ libopenslide0
 openslide-tools
 default-jdk
 !apt-get update && apt-get install -y openjdk-11-jdk
+chmod +x setup.sh
+./setup.sh
