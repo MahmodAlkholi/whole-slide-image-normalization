@@ -192,6 +192,5 @@ zarr==2.16.1
 libopenslide0
 openslide-tools
 default-jdk
-apt-get install openjdk-11-jdk
 chmod +x setup.sh
 ./setup.sh
