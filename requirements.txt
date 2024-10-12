@@ -1,7 +1,7 @@
 # Python 3.9 compatible requirements
 
 --extra-index-url https://download.pytorch.org/whl/cu118; sys_platform != "darwin"
-tiatoolbox==1.5.0  # Use a compatible version
+tiatoolbox==1.5.0
 albumentations>=1.3.0
 bokeh>=3.1.1, <3.6.0
 Click>=8.1.3
@@ -18,14 +18,14 @@ numba>=0.57.0
 numpy>=1.23.5
 opencv-python>=4.6.0
 openslide-python>=1.2.0
-pandas==1.5.3  # Change to a compatible version
+pandas>=2.0.0,<=2.1.4  # Relaxed constraints
 pillow>=9.3.0
 pydicom>=2.3.1 
 pyyaml>=6.0
 requests>=2.28.1
 scikit-image>=0.20
-scikit-learn>=1.2.0
-scipy>=1.8
+scikit-learn>=1.2.0,<1.3.0  # Updated to avoid conflicts
+scipy>=1.9.0  # Ensure compatibility
 shapely>=2.0.0
 SimpleITK>=2.2.1
 sphinx>=5.3.0
