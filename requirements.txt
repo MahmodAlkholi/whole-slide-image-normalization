@@ -191,4 +191,4 @@ xyzservices==2024.9.0
 zarr==2.16.1
 libopenslide0
 openslide-tools
-default-jdk
+openjdk-11-jdk
